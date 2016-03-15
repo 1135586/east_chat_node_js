@@ -1,0 +1,2 @@
+sudo docker run -it -p 8124:8124 -v "$PWD":/usr/src/myapp -w /usr/src/myapp --rm --name js_server node node app.js
+listen 8124 port
